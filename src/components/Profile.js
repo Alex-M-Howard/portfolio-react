@@ -41,7 +41,7 @@ const Profile = () => {
               <Avatar alt="Python" src="/4.png" sx={{ width: 50, height: 50 }} />
             </Stack>
             <Stack direction="row" spacing={2} justifyContent="center">
-              <Avatar alt="Flask" src="/5.svg" sx={{ width: 50, height: 50 }} />
+              <Avatar alt="Flask" src="/5.svg" sx={{ width: 50, height: 50, backgroundColor: "#FFF" }} />
               <Avatar alt="PostgreSQL" src="/6.png" sx={{ width: 50, height: 50 }} />
               <Avatar alt="Node.js" src="/7.png" sx={{ width: 50, height: 50 }} />
               <Avatar alt="React" src="/8.png" sx={{ width: 50, height: 50 }} />

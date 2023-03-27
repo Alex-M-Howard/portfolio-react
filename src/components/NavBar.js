@@ -1,4 +1,6 @@
 import * as React from 'react';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -19,7 +21,7 @@ const drawerWidth = 240;
 const navItems = ['About', 'Projects', 'Resume', 'Contact'];
 
 export default function DrawerAppBar(props) {
-  const { window } = props;
+  const { window, onThemeToggle, isDarkMode } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -42,6 +44,9 @@ export default function DrawerAppBar(props) {
             </Link>
           </ListItem>
         ))}
+        <IconButton color="inherit" onClick={onThemeToggle}>
+              {isDarkMode ? <Brightness7Icon /> : <Brightness4Icon />}
+            </IconButton>
       </List>
     </Box>
   );
@@ -77,6 +82,9 @@ export default function DrawerAppBar(props) {
               </Button>
                 </Link>
             ))}
+            <IconButton color="inherit" onClick={onThemeToggle}>
+              {isDarkMode ? <Brightness7Icon /> : <Brightness4Icon />}
+            </IconButton>
           </Box>
         </Toolbar>
       </AppBar>

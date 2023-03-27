@@ -52,13 +52,13 @@ export default function Home() {
           <Projects />
         </Element>
             </Grid>
-          <Grid item xs={12}>
+          <Grid item xs={8}>
         <Element name="Resume">
           <ToolBar />
-          {/*<Resume />*/}
+          <Resume />
         </Element>
             </Grid>
-          <Grid item xs={12}>
+          <Grid item xs={8}>
         <Element name="Contact">
           <ToolBar />
           <Contact />
