@@ -2,8 +2,11 @@ import React from "react";
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
+import TypingText from '@/components/TypingText';
 
 const Profile = () => {
+
+
   return (
     <Grid
       className="profile"
@@ -24,6 +27,7 @@ const Profile = () => {
         direction="column"
         alignItems="center"
       >
+    <TypingText />
         <h1>Alex Howard</h1>
         <h2 style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'baseline', textAlign: 'center' }}>
           <span style={{ margin: '0 5px' }}>Full Stack</span>

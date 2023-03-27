@@ -42,6 +42,8 @@ export default function Home() {
 
           <Grid item  xs={8}>
         <Element name="About">
+          <br />
+          <br />
           <ToolBar />
           <About />
         </Element>
