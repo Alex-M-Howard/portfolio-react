@@ -5,7 +5,6 @@ import Grid from "@mui/material/Grid";
 const About = () => {
   // Add a style object for the About component
   const aboutStyle = {
-    height: "90vh",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-evenly"
