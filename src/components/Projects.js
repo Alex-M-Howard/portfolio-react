@@ -21,11 +21,13 @@ const Projects = () => {
       direction="column"
     >
       <Grid item>
-        <Typography variant="h2" sx={{mb: 3}}>Projects</Typography>
+        <Typography variant="h2" sx={{ mb: 3 }}>
+          Projects
+        </Typography>
       </Grid>
       <Grid container justifyContent="center" alignItems="center" spacing={4}>
         {/* Thyme2Eat */}
-        <Grid item xs={12}  md={4}>
+        <Grid item xs={12} md={4}>
           <Card variant="outlined">
             <CardMedia
               component="img"
@@ -38,41 +40,69 @@ const Projects = () => {
                 Thyme2Eat
               </Typography>
               <Stack direction="row" spacing={2} justifyContent="center">
-                <Avatar alt="HTML" src="/1.png" sx={{ width: 25, height: 25 }} />
+                <Avatar
+                  alt="HTML"
+                  src="/1.png"
+                  sx={{ width: 25, height: 25 }}
+                />
                 <Avatar alt="CSS" src="/2.png" sx={{ width: 25, height: 25 }} />
-                <Avatar alt="JavaScript" src="/3.png" sx={{ width: 25, height: 25 }} />
-                <Avatar alt="Python" src="/4.png" sx={{ width: 25, height: 25 }} />
-                <Avatar alt="Flask" src="/5.svg" sx={{ width: 25, height: 25, backgroundColor: "#FFF" }} />
-                <Avatar alt="PostgreSQL" src="/6.png" sx={{ width: 25, height: 25 }}/>
+                <Avatar
+                  alt="JavaScript"
+                  src="/3.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="Python"
+                  src="/4.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="Flask"
+                  src="/5.svg"
+                  sx={{ width: 25, height: 25, backgroundColor: "#FFF" }}
+                />
+                <Avatar
+                  alt="PostgreSQL"
+                  src="/6.png"
+                  sx={{ width: 25, height: 25 }}
+                />
               </Stack>
               <Box mt={2}>
                 <Typography variant="body1">
                   A recipe app that allows users to search for recipes and save
                   them to their profile. This was my first 'big' project to show
-                  that I could combine my fundamentals with Python and Flask with a postgres database.
+                  that I could combine my fundamentals with Python and Flask
+                  with a postgres database.
                 </Typography>
               </Box>
 
               <Stack direction="row" spacing={4} justifyContent="center" mt={2}>
-        <Link href="https://github.com/Alex-M-Howard/Capstone-Thyme2Eat" color="inherit" underline="hover">
-          <Stack direction="row" spacing={1} alignItems="center">
-            <GitHubIcon />
-            <Typography variant="body2">Source Code</Typography>
-          </Stack>
-        </Link>
-        <Link href="https://thyme2eat.up.railway.app" color="inherit" underline="hover">
-          <Stack direction="row" spacing={1} alignItems="center">
-            <OpenInNewIcon />
-            <Typography variant="body2">Live Example</Typography>
-          </Stack>
-        </Link>
-      </Stack>
-
+                <Link
+                  href="https://github.com/Alex-M-Howard/Capstone-Thyme2Eat"
+                  color="inherit"
+                  underline="hover"
+                >
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <GitHubIcon />
+                    <Typography variant="body2">Source Code</Typography>
+                  </Stack>
+                </Link>
+                <Link
+                  href="https://thyme2eat.up.railway.app"
+                  color="inherit"
+                  underline="hover"
+                >
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <OpenInNewIcon />
+                    <Typography variant="body2">Live Example</Typography>
+                  </Stack>
+                </Link>
+              </Stack>
             </CardContent>
           </Card>
         </Grid>
-        {/* Jobly */}
-        <Grid item xs={12}  md={4}>
+        {/* habitual */}
+        <Grid item xs={12} md={4}>
           <Card variant="outlined">
             <CardMedia
               component="img"
@@ -85,41 +115,132 @@ const Projects = () => {
                 Jobly
               </Typography>
               <Stack direction="row" spacing={2} justifyContent="center">
-          <Avatar alt="CSS" src="/2.png" sx={{ width: 25, height: 25 }} />
-          <Avatar alt="JavaScript" src="/3.png" sx={{ width: 25, height: 25 }} />
-          <Avatar alt="Node.js" src="/7.png" sx={{ width: 25, height: 25 }} />
-          <Avatar alt="React" src="/8.png" sx={{ width: 25, height: 25 }} />
-          <Avatar alt="PostgreSQL" src="/6.png" sx={{ width: 25, height: 25 }} />
-          </Stack>
+                <Avatar alt="CSS" src="/2.png" sx={{ width: 25, height: 25 }} />
+                <Avatar
+                  alt="JavaScript"
+                  src="/3.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="Node.js"
+                  src="/7.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="React"
+                  src="/8.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="PostgreSQL"
+                  src="/6.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+              </Stack>
               <Box mt={2}>
-              <Typography variant="body1">
-                A job search app that allows users to search for jobs and
-                companies, and apply to jobs. This was the first 'big' project that
-                was done with React and Next.js for the front end. The backend was completed
-                utilizing Node.js, Express, and PostgreSQL.
-              </Typography>
-                </Box>
+                <Typography variant="body1">
+                  A job search app that allows users to search for jobs and
+                  companies, and apply to jobs. This was the first 'big' project
+                  that was done with React and Next.js for the front end. The
+                  backend was completed utilizing Node.js, Express, and
+                  PostgreSQL.
+                </Typography>
+              </Box>
 
               <Stack direction="row" spacing={4} justifyContent="center" mt={2}>
-        <Link href="https://github.com/Alex-M-Howard/jobly" color="inherit" underline="hover">
-          <Stack direction="row" spacing={1} alignItems="center">
-            <GitHubIcon />
-            <Typography variant="body2">Source Code</Typography>
-          </Stack>
-        </Link>
-        <Link href="https://jobly-ebon.vercel.app/" color="inherit" underline="hover">
-          <Stack direction="row" spacing={1} alignItems="center">
-            <OpenInNewIcon />
-            <Typography variant="body2">Live Example</Typography>
-          </Stack>
-        </Link>
-      </Stack>
+                <Link
+                  href="https://github.com/Alex-M-Howard/jobly"
+                  color="inherit"
+                  underline="hover"
+                >
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <GitHubIcon />
+                    <Typography variant="body2">Source Code</Typography>
+                  </Stack>
+                </Link>
+                <Link
+                  href="https://jobly-ebon.vercel.app/"
+                  color="inherit"
+                  underline="hover"
+                >
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <OpenInNewIcon />
+                    <Typography variant="body2">Live Example</Typography>
+                  </Stack>
+                </Link>
+              </Stack>
+            </CardContent>
+          </Card>
+        </Grid>
+        {/* habitual */}
+        <Grid item xs={12} md={4}>
+          <Card variant="outlined">
+            <CardMedia
+              component="img"
+              height="140"
+              image="/habitual.png"
+              alt="habitual"
+            />
+            <CardContent>
+              <Typography variant="h5" align="center">
+                habitual
+              </Typography>
+              <Stack direction="row" spacing={2} justifyContent="center">
+                <Avatar alt="CSS" src="/2.png" sx={{ width: 25, height: 25 }} />
+                <Avatar
+                  alt="JavaScript"
+                  src="/3.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="Node.js"
+                  src="/7.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="React"
+                  src="/8.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="PostgreSQL"
+                  src="/6.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+              </Stack>
+              <Box mt={2}>
+                <Typography variant="body1">
+                  A daily habit tracker that lets you track habits, journal about your experiences, and shows you data about your ongoing journey.
+                </Typography>
+              </Box>
 
+              <Stack direction="row" spacing={4} justifyContent="center" mt={2}>
+                <Link
+                  href="https://github.com/Alex-M-Howard/habitual"
+                  color="inherit"
+                  underline="hover"
+                >
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <GitHubIcon />
+                    <Typography variant="body2">Source Code</Typography>
+                  </Stack>
+                </Link>
+                <Link
+                  href="https://habitual-ten.vercel.app/"
+                  color="inherit"
+                  underline="hover"
+                >
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <OpenInNewIcon />
+                    <Typography variant="body2">Live Example</Typography>
+                  </Stack>
+                </Link>
+              </Stack>
             </CardContent>
           </Card>
         </Grid>
         {/* Production Hub */}
-        <Grid item xs={12}  md={4}>
+        <Grid item xs={12} md={4}>
           <Card variant="outlined">
             <CardMedia
               component="img"
@@ -131,38 +252,68 @@ const Projects = () => {
               <Typography variant="h5" align="center">
                 Production Hub
               </Typography>
-               <Stack direction="row" spacing={2} justifyContent="center">
-          <Avatar alt="HTML" src="/1.png" sx={{ width: 25, height: 25 }} />
-          <Avatar alt="CSS" src="/2.png" sx={{ width: 25, height: 25 }} />
-          <Avatar alt="JavaScript" src="/3.png" sx={{ width: 25, height: 25 }} />
-          <Avatar alt="Python" src="/4.png" sx={{ width: 25, height: 25 }} />
-          <Avatar alt="Flask" src="/5.svg" sx={{ width: 25, height: 25, backgroundColor: "#FFF" }} />
-          <Avatar alt="PostgreSQL" src="/6.png" sx={{ width: 25, height: 25 }} />
-          </Stack>
+              <Stack direction="row" spacing={2} justifyContent="center">
+                <Avatar
+                  alt="HTML"
+                  src="/1.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar alt="CSS" src="/2.png" sx={{ width: 25, height: 25 }} />
+                <Avatar
+                  alt="JavaScript"
+                  src="/3.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="Python"
+                  src="/4.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="Flask"
+                  src="/5.svg"
+                  sx={{ width: 25, height: 25, backgroundColor: "#FFF" }}
+                />
+                <Avatar
+                  alt="PostgreSQL"
+                  src="/6.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+              </Stack>
               <Box mt={2}>
-              <Typography variant="body1">
-                A manufacturing centric app that allows users to track prototype
-                production, view SOPs, and machining programs. This was born out of the
-                need to have a centralized location for various manufacturing processes.
-                Utilizing my prior knowledge of Python, Flask, and PostgreSQL, I was able to
-                create a full stack application that could be used immediately in the real world.
-              </Typography>
-                </Box>
+                <Typography variant="body1">
+                  A manufacturing centric app that allows users to track
+                  prototype production, view SOPs, and machining programs. This
+                  was born out of the need to have a centralized location for
+                  various manufacturing processes. Utilizing my prior knowledge
+                  of Python, Flask, and PostgreSQL, I was able to create a full
+                  stack application that could be used immediately in the real
+                  world.
+                </Typography>
+              </Box>
 
               <Stack direction="row" spacing={4} justifyContent="center" mt={2}>
-        <Link href="https://github.com/Alex-M-Howard/Production-Hub" color="inherit" underline="hover">
-          <Stack direction="row" spacing={1} alignItems="center">
-            <GitHubIcon />
-            <Typography variant="body2">Source Code</Typography>
-          </Stack>
-        </Link>
-        <Link href="https://production-hub-production.up.railway.app/proto/" color="inherit" underline="hover">
-          <Stack direction="row" spacing={1} alignItems="center">
-            <OpenInNewIcon />
-            <Typography variant="body2">Live Example</Typography>
-          </Stack>
-        </Link>
-      </Stack>
+                <Link
+                  href="https://github.com/Alex-M-Howard/Production-Hub"
+                  color="inherit"
+                  underline="hover"
+                >
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <GitHubIcon />
+                    <Typography variant="body2">Source Code</Typography>
+                  </Stack>
+                </Link>
+                <Link
+                  href="https://production-hub-production.up.railway.app/proto/"
+                  color="inherit"
+                  underline="hover"
+                >
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <OpenInNewIcon />
+                    <Typography variant="body2">Live Example</Typography>
+                  </Stack>
+                </Link>
+              </Stack>
             </CardContent>
           </Card>
         </Grid>
