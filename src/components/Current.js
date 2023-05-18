@@ -77,6 +77,106 @@ const Current = () => {
             </CardContent>
           </Card>
         </Grid>
+
+        {/* My Brother Frasier */}
+        <Grid item xs={12} md={4}>
+          <Card variant="outlined">
+            <CardMedia
+              component="img"
+              image="/frasier.png"
+              alt="Frasier and Niles Crane"
+            />
+            <CardContent>
+              <Typography variant="h5" align="center">
+                My Brother Frasier
+              </Typography>
+              <Stack direction="row" spacing={2} justifyContent="center">
+                <Avatar
+                  alt="Java"
+                  src="/java.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="Maven"
+                  src="/maven.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="Spring Boot"
+                  src="/springboot.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="OpenAI"
+                  src="/openai.jpg"
+                  sx={{ width: 25, height: 25 }}
+                />
+                <Avatar
+                  alt="Twilio"
+                  src="/twilio.png"
+                  sx={{ width: 25, height: 25 }}
+                />
+              </Stack>
+              <Box mt={2}>
+                <Typography variant="body1">
+                  What if you could chat with Frasier Crane? What if you could
+                  be Niles Crane? Oh how merry!
+                  <br />
+                  <br />
+                  "Ah, Niles, I find myself seized with a most cerebral of
+                  visions. Picture, if you will, a virtual confidant, as
+                  effusive in our shared repartee as we two brothers are. A
+                  construct, programmed to converse with the alacrity and
+                  witticisms of your beloved sibling, myself.
+                  <br />
+                  <br />
+                  A most remarkable concept, I assure you, brought to life using
+                  the revolutionary GPT-3 technology from OpenAI, a marvel of
+                  artificial intellect. Imagine our discourse as simple as the
+                  exchange of text messages, leveraging Twilio, a service of
+                  unparalleled functionality in such matters.
+                  <br />
+                  <br />
+                  Now, dear brother, our conversation is but a testament to the
+                  power of this undertaking. Its foundation is built with Java
+                  and Maven, the very sinews of modern code, if you will.
+                  <br />
+                  <br />
+                  Our virtual repartee springs to life using the OpenAI's API, a
+                  conduit to generate a response akin to our inimitable style.
+                  Concurrently, Twilio's API is employed, both to dispatch and
+                  retrieve these textual messages, a modern-age electronic post,
+                  if you will.
+                  <br />
+                  <br />
+                  The framework is built sturdily on Java, coupled with the
+                  reliability of Spring Boot and Maven, again using OpenAI's API
+                  and Twilio's API. A testament to digital engineering, Niles, a
+                  testament indeed.
+                  <br />
+                  <br />
+                  And rest assured, the concept isn't yet fully hatched. The
+                  software equivalent of our medical drills, tests, will soon
+                  follow to further refine this digital wonder. Do keep your
+                  eyes peeled, dear brother, for the art of conversation is
+                  about to reach a new frontier."
+                </Typography>
+              </Box>
+
+              <Stack direction="row" spacing={4} justifyContent="center" mt={2}>
+                <Link
+                  href="https://github.com/Alex-M-Howard/imlistening"
+                  color="inherit"
+                  underline="hover">
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <GitHubIcon />
+                    <Typography variant="body2">Source Code</Typography>
+                  </Stack>
+                </Link>
+              </Stack>
+            </CardContent>
+          </Card>
+        </Grid>
       </Grid>
     </Grid>
   );
