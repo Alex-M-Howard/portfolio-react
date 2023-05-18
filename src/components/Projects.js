@@ -101,7 +101,7 @@ const Projects = () => {
             </CardContent>
           </Card>
         </Grid>
-        {/* habitual */}
+        {/* jobly */}
         <Grid item xs={12} md={4}>
           <Card variant="outlined">
             <CardMedia
@@ -177,7 +177,7 @@ const Projects = () => {
           <Card variant="outlined">
             <CardMedia
               component="img"
-              height="140"
+              height="90"
               image="/habitual.png"
               alt="habitual"
             />
