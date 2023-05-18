@@ -11,6 +11,7 @@ import ToolBar from '@mui/material/Toolbar';
 
 import Grid from '@mui/material/Grid';
 import { Link, Element, Events, animateScroll as scroll } from 'react-scroll';
+import Current from '@/components/Current';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -50,6 +51,12 @@ export default function Home() {
           <Element name="Projects">
             <ToolBar />
             <Projects />
+          </Element>
+        </Grid>
+        <Grid item xs={12}>
+          <Element name="Current">
+            <ToolBar />
+            <Current />
           </Element>
         </Grid>
         <Grid item xs={12} sm={10} md={8}>
