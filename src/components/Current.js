@@ -120,7 +120,7 @@ const Current = () => {
               <Box mt={2}>
                 <Typography variant="body1">
                   What if you could chat with Frasier Crane? What if you could
-                  be Niles Crane? Oh how merry!
+                  be Niles Crane? Oh how merry! - Try texting a question to +1-844-981-3176
                   <br />
                   <br />
                   "Ah, Niles, I find myself seized with a most cerebral of
