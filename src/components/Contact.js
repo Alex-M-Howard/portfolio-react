@@ -18,8 +18,14 @@ const Contact = () => {
       <Typography variant="h2" sx={{mb: 3}}>
         Contact
       </Typography>
+
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/alex-m-howard/30min?hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      <!-- Calendly inline widget end -->
+
       <Typography variant="body1" gutterBottom>
-        If you'd like to get in touch with me, please send me an email at: <br/>
+        If you'd like to get in touch with me by email: <br/>
           <a href="mailto:alex-m-howard@pm.me">
             alex-m-howard@pm.me
           </a>
