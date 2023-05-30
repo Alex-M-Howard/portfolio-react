@@ -11,6 +11,7 @@ const Contact = () => {
     justifyContent: "center",
     alignItems: "center",
     textAlign: "center",
+    width: "100%",
   };
 
   return (
@@ -20,7 +21,10 @@ const Contact = () => {
           <Typography variant="h2" sx={{mb: 3}}>
             Contact
           </Typography>
-            <div className="calendly-inline-widget" data-url="https://calendly.com/alex-m-howard/30min?hide_gdpr_banner=1" style={{ minWidth: '320px', minHeight: '700px'}}></div>
+          <div className="calendly-inline-widget"
+            data-url="https://calendly.com/alex-m-howard/30min?hide_gdpr_banner=1"
+            style={{ minWidth: '320px', minHeight: '700px', width: '100%' }}
+          />
             <Helmet>
               <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             </Helmet>

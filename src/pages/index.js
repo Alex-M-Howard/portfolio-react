@@ -68,8 +68,6 @@ export default function Home() {
         <Grid item xs={12} sm={10} md={8}>
           <Element name="Contact">
             <ToolBar />
-            <ToolBar />
-            <ToolBar />
             <Contact />
           </Element>
         </Grid>
