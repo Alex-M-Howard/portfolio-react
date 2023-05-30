@@ -22,20 +22,19 @@ const Resume = () => {
   return (
     <Box>
       <Grid container spacing={3}>
-        <Grid item xs={12} container justifyContent="space-between">
+        <Grid item xs={12} container justifyContent="center">
           <Typography variant="h2" sx={{ mb: 3 }}>
             Resume
+            <Button
+              sx={{ height: "40px", ml: '40px' }}
+              variant="contained"
+              color="primary"
+              href="https://docs.google.com/uc?id=1ah7S6GIEzPNSML_u068FdVLhaJZaFSmZ&export=download"
+              target="_blank"
+              rel="noopener noreferrer">
+              Download
+            </Button>
           </Typography>
-          <Button
-            sx={{ height: "50px" }}
-            variant="contained"
-            color="primary"
-            href="https://docs.google.com/uc?id=1ah7S6GIEzPNSML_u068FdVLhaJZaFSmZ&export=download"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Download
-          </Button>
         </Grid>
         <Paper style={paperStyle}>
           <Grid
@@ -44,8 +43,7 @@ const Resume = () => {
             alignItems="center"
             direction="column"
             item
-            xs={12}
-          >
+            xs={12}>
             <Typography variant="h4">Alex Howard</Typography>
             <Typography>Software Engineer – Blandon, PA</Typography>
             <Typography>
