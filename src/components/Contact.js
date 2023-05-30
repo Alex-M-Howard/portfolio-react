@@ -20,10 +20,12 @@ const Contact = () => {
         Contact
       </Typography>
 
-      <div class="calendly-inline-widget" data-url="https://calendly.com/alex-m-howard/30min?hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+          <div className="calendly-inline-widget" data-url="https://calendly.com/alex-m-howard/30min?hide_gdpr_banner=1" style={{ 'min-width': '320px', 'min-height': '700px'}}></div>
       <Helmet>
       <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
       </Helmet>
+          <br />
+          <br />
       <Typography variant="body1" gutterBottom>
         If you'd like to get in touch with me by email: <br/>
           <a href="mailto:alex-m-howard@pm.me">
