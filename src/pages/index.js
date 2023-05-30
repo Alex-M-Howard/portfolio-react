@@ -29,8 +29,7 @@ export default function Home() {
         direction="row"
         alignItems="center"
         justifyContent="space-evenly"
-        sx={{ px: 5, gap: 2 }}
-      >
+        sx={{ px: 5, gap: 2 }}>
         <Grid item xs={12}>
           <Element name="Top">
             <ToolBar />
@@ -39,7 +38,7 @@ export default function Home() {
           </Element>
         </Grid>
 
-        <Grid item xs={12} sm={10} md={8}>
+        <Grid item xs={12} sm={10} md={8} className={styles.section}>
           <Element name="About">
             <br />
             <br />
@@ -47,25 +46,25 @@ export default function Home() {
             <About />
           </Element>
         </Grid>
-        <Grid item xs={12}>
+        <Grid item xs={12} className={styles.section}>
           <Element name="Projects">
             <ToolBar />
             <Projects />
           </Element>
         </Grid>
-        <Grid item xs={12}>
+        <Grid item xs={12} className={styles.section}>
           <Element name="Current">
             <ToolBar />
             <Current />
           </Element>
         </Grid>
-        <Grid item xs={12} sm={10} md={8}>
+        <Grid item xs={12} sm={10} md={8} className={styles.section}>
           <Element name="Resume">
             <ToolBar />
             <Resume />
           </Element>
         </Grid>
-        <Grid item xs={12} sm={10} md={8}>
+        <Grid item xs={12} sm={10} md={8} className={styles.section}>
           <Element name="Contact">
             <ToolBar />
             <Contact />

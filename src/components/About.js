@@ -7,7 +7,8 @@ const About = () => {
   const aboutStyle = {
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-evenly"
+    justifyContent: "space-evenly",
+    alignItems: "center",
   };
 
   return (
