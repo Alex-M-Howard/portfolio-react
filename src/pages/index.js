@@ -58,12 +58,12 @@ export default function Home() {
             <Current />
           </Element>
         </Grid>
-        <Grid item xs={12} sm={10} md={8} className={styles.section}>
+        {/* <Grid item xs={12} sm={10} md={8} className={styles.section}>
           <Element name="Resume">
             <ToolBar />
             <Resume />
           </Element>
-        </Grid>
+        </Grid> */}
         <Grid item xs={12} sm={10} md={8} className={styles.section}>
           <Element name="Contact">
             <ToolBar />

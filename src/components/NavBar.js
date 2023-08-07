@@ -18,7 +18,7 @@ import Button from '@mui/material/Button';
 import {Link} from 'react-scroll';
 
 const drawerWidth = 240;
-const navItems = ['About', 'Projects', 'Current', 'Resume', 'Contact'];
+const navItems = ['About', 'Projects', 'Current', 'Contact'];
 
 export default function DrawerAppBar(props) {
   const { window, onThemeToggle, isDarkMode } = props;
