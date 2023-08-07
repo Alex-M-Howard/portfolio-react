@@ -52,6 +52,8 @@ const ProjectCard = ({imageUrl, altText, title, avatars, shortDescription, longD
           href={sourceUrl}
           color="inherit"
           underline="hover"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <Stack direction="row" spacing={1} alignItems="center">
             <GitHubIcon />
@@ -63,6 +65,8 @@ const ProjectCard = ({imageUrl, altText, title, avatars, shortDescription, longD
           href={linkUrl}
           color="inherit"
           underline="hover"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <Stack direction="row" spacing={1} alignItems="center">
             <OpenInNewIcon />
