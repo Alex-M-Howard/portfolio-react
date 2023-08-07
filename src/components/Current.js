@@ -18,6 +18,21 @@ const Current = () => {
     linkUrl: ""
   }
 
+  const votewise = {
+    imageUrl: "votewise.svg",
+    altText: "VoteWise",
+    title: "VoteWise",
+    avatars: [
+      { alt: "NextJS", url: "/9.svg" },
+      { alt: "TailwindCSS", url: "/tailwind.svg" },
+      { alt: "MongoDB", url: "/mongodb.svg" },
+    ],
+    shortDescription: "Volunteer work for Phildelphia based non-profit, VoteWise. VoteWise.org is a non-profit, non-partisan website that connects voters and politicians without advertising dollars getting in the way. We help make polictics about ideas, not dollars.",
+    longDescription: "This project is being built with NextJS, TailwindCSS, and MongoDB. So far I have helped with the back end, working on db connection, file upload/excel parsing, and some sign-on logic. This project is being led by Spencer Snygg",
+    sourceUrl: "",
+    linkUrl: "http://www.votewise.org/"
+  }
+
   return (
     <Grid
       container
@@ -33,6 +48,10 @@ const Current = () => {
 
         <Grid item xs={12} md={4}>
           <ProjectCard {...trivia} />
+        </Grid>        
+
+        <Grid item xs={12} md={4}>
+          <ProjectCard {...votewise} />
         </Grid>
 
       </Grid>
