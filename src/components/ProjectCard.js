@@ -48,6 +48,8 @@ const ProjectCard = ({imageUrl, altText, title, avatars, shortDescription, longD
       </Box>
 
       <Stack direction="row" spacing={4} justifyContent="center" mt={2}>
+        
+      {sourceUrl === "" ? null :
         <Link
           href={sourceUrl}
           color="inherit"
@@ -60,6 +62,7 @@ const ProjectCard = ({imageUrl, altText, title, avatars, shortDescription, longD
             <Typography variant="body2">Source Code</Typography>
           </Stack>
         </Link>
+      }
         {linkUrl === "" ? null : 
         <Link
           href={linkUrl}
