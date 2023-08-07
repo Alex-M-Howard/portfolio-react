@@ -5,6 +5,8 @@ export default function Document() {
     <Html lang="en" style={{width: '100vw'}}>
       <Head>
         <meta property="og:image" content="https://media.istockphoto.com/id/1047259374/photo/programming-source-code-abstract-background.jpg?b=1&s=612x612&w=0&k=20&c=ujRPoiaJlm5U3WDWcVVa1YVlFIt6Gcjr-RstzOEPbIU=" />
+        <meta title='Alex Howard - Portfolio' content='Alex Howard - Portfolio' />
+        <meta name="description" content="Alex Howard's Portfolio" />
       </Head>
       <body>
         <Main />
