@@ -21,22 +21,22 @@ const thyme2eat = {
   linkUrl: "https://thyme2eat.up.railway.app",
 };
 
-const jobly = {
-  imageUrl: "/jobly.jpg",
-  altText: "Jobly",
-  title: "Jobly",
-  avatars: [
-    { alt: "CSS", url: "/2.png" },
-    { alt: "JavaScript", url: "/3.png" },
-    { alt: "Node.js", url: "/7.png" },
-    { alt: "React", url: "/8.png" },
-    { alt: "PostgreSQL", url: "/6.png" },
-  ],
-  shortDescription:"A full stack job searching app that allows users to search for jobs and apply to them.",
-  longDescription: "A job search app that allows users to search for jobs and companies, and apply to jobs. This was the first 'big' project that was done with React and Next.js for the front end. The backend was completed utilizing Node.js, Express, and PostgreSQL. This is also where I got to play around with user context and authentication. I also spent a lot of time working on the theme and made a true toggle switch for light and dark mode.",
-  sourceUrl: "https://github.com/Alex-M-Howard/jobly",
-  linkUrl: "https://jobly-ebon.vercel.app/",
-}
+// const jobly = {
+//   imageUrl: "/jobly.jpg",
+//   altText: "Jobly",
+//   title: "Jobly",
+//   avatars: [
+//     { alt: "CSS", url: "/2.png" },
+//     { alt: "JavaScript", url: "/3.png" },
+//     { alt: "Node.js", url: "/7.png" },
+//     { alt: "React", url: "/8.png" },
+//     { alt: "PostgreSQL", url: "/6.png" },
+//   ],
+//   shortDescription:"A full stack job searching app that allows users to search for jobs and apply to them.",
+//   longDescription: "A job search app that allows users to search for jobs and companies, and apply to jobs. This was the first 'big' project that was done with React and Next.js for the front end. The backend was completed utilizing Node.js, Express, and PostgreSQL. This is also where I got to play around with user context and authentication. I also spent a lot of time working on the theme and made a true toggle switch for light and dark mode.",
+//   sourceUrl: "https://github.com/Alex-M-Howard/jobly",
+//   linkUrl: "https://jobly-ebon.vercel.app/",
+// }
 
 const habitual = {
   imageUrl: "/habitual.png",
@@ -123,10 +123,12 @@ const Projects = () => {
         <Grid item xs={12} sm={6} md={4} lg={3}>
           <ProjectCard {...thyme2eat} />
         </Grid>
-
+ 
+        {/*
         <Grid item xs={12} sm={6} md={4} lg={3}>
           <ProjectCard {...jobly} />
-        </Grid>
+        </Grid> 
+        */}
 
         <Grid item xs={12} sm={6} md={4} lg={3}>
           <ProjectCard {...habitual} />
