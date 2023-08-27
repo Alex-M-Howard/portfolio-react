@@ -20,7 +20,7 @@ const darkTheme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
-      main: '#000080',
+      main: 'rgba(0,0,0,0.8)',
     },
     secondary: {
       main: '#f48fb1',
@@ -31,7 +31,7 @@ const darkTheme = createTheme({
     },
     background: {
       default: '#4b4b4b',
-      paper: '#000080',
+      paper: '#3c6464',
     }
   },
 });
