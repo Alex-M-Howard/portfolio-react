@@ -68,7 +68,7 @@ const Contact = () => {
           <br />
           <br />
 
-          <div className="calendly-inline-widget"
+          {/* <div className="calendly-inline-widget"
             data-url="https://calendly.com/alex-m-howard/30min?hide_gdpr_banner=1"
             style={{ minWidth: '320px', minHeight: '1000px', width: '100%' }}
           />
@@ -76,7 +76,7 @@ const Contact = () => {
               <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             </Helmet>
             <br />
-            <br />
+            <br /> */}
           
         </div>
       </Grid>
