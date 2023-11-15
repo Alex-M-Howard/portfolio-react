@@ -55,23 +55,23 @@ const habitual = {
   linkUrl: "https://habitual-ten.vercel.app/",
 };
 
-const productionHub = {
-  imageUrl: "/productionhub.png",
-  altText: "Production Hub",
-  title: "Production Hub",
-  avatars: [
-    { alt: "HTML", url: "/1.png" },
-    { alt: "CSS", url: "/2.png" },
-    { alt: "JavaScript", url: "/3.png" },
-    { alt: "Python", url: "/4.png" },
-    { alt: "Flask", url: "/5.svg" },
-    { alt: "PostgreSQL", url: "/6.png" },
-  ],
-  shortDescription:"An app that allows users to track various components of a production environment.",
-  longDescription: "This is the project that I've worked the most on. It started because we needed something better at work to track some of our completed CNC programs. It grew from there to now include: part requests, error logs, prototype project management, nesting calculator, standard operating procedures, and more. I have been fortunate enough to experiement thoroughly with the technologies used and have used: Python, Flask, PostgreSQL, JavaScript, Bootstrap, jQuery, AWS S3 buckets, FontAwesome, and more. This sample doesn't include everything the current version does, and also includes dummy data to try out.",
-  sourceUrl: "https://github.com/Alex-M-Howard/Production-Hub",
-  linkUrl: "https://production-hub-production.up.railway.app",
-};
+// const productionHub = {
+//   imageUrl: "/productionhub.png",
+//   altText: "Production Hub",
+//   title: "Production Hub",
+//   avatars: [
+//     { alt: "HTML", url: "/1.png" },
+//     { alt: "CSS", url: "/2.png" },
+//     { alt: "JavaScript", url: "/3.png" },
+//     { alt: "Python", url: "/4.png" },
+//     { alt: "Flask", url: "/5.svg" },
+//     { alt: "PostgreSQL", url: "/6.png" },
+//   ],
+//   shortDescription:"An app that allows users to track various components of a production environment.",
+//   longDescription: "This is the project that I've worked the most on. It started because we needed something better at work to track some of our completed CNC programs. It grew from there to now include: part requests, error logs, prototype project management, nesting calculator, standard operating procedures, and more. I have been fortunate enough to experiement thoroughly with the technologies used and have used: Python, Flask, PostgreSQL, JavaScript, Bootstrap, jQuery, AWS S3 buckets, FontAwesome, and more. This sample doesn't include everything the current version does, and also includes dummy data to try out.",
+//   sourceUrl: "https://github.com/Alex-M-Howard/Production-Hub",
+//   linkUrl: "https://production-hub-production.up.railway.app",
+// };
 
 const javaTicTacToe = {
   imageUrl: "/tictactoe.png",
@@ -134,9 +134,9 @@ const Projects = () => {
           <ProjectCard {...habitual} />
         </Grid>
         
-        <Grid item xs={12} sm={6} md={4} lg={3}>
+        {/* <Grid item xs={12} sm={6} md={4} lg={3}>
           <ProjectCard {...productionHub} />
-        </Grid>
+        </Grid> */}
         
         <Grid item xs={12} sm={6} md={4} lg={3}>
           <ProjectCard {...javaTicTacToe} />

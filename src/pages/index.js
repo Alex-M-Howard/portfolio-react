@@ -52,16 +52,10 @@ export default function Home() {
             <Projects />
           </Element>
         </Grid>
-        <Grid item xs={12} className={styles.section}>
+        {/* <Grid item xs={12} className={styles.section}>
           <Element name="Current">
             <ToolBar />
             <Current />
-          </Element>
-        </Grid>
-        {/* <Grid item xs={12} sm={10} md={8} className={styles.section}>
-          <Element name="Resume">
-            <ToolBar />
-            <Resume />
           </Element>
         </Grid> */}
         <Grid item xs={12} sm={10} md={8} className={styles.section}>
