@@ -18,7 +18,7 @@ const thyme2eat = {
   shortDescription:"A recipe app that allows users to search for recipes and save them to their profile.",
   longDescription: "This was my first 'big' project to show that I could combine my fundamentals with Python and Flask with a postgres database. I also wanted to try out a CSS framework and went away from Bootstrap to Bulma. The biggest thing this project taught me was to be better aware of the API chosen, as there were many limits that I had to end up working around.",
   sourceUrl: "https://github.com/Alex-M-Howard/Capstone-Thyme2Eat",
-  linkUrl: "https://thyme2eat.up.railway.app",
+  linkUrl: "",
 };
 
 // const jobly = {
