@@ -18,57 +18,68 @@ const Contact = () => {
 
   return (
     <Grid container justifyContent="center" alignItems="center">
-      <Grid container item>
-        <div className="contact" style={contactStyle}>
-          <Typography variant="h2" sx={{mb: 3}}>
+      <Grid container item direction="column" justifyContent="center" alignItems="center">
+          <Typography variant="h2" style={{margin: '5px auto'}}>
             Contact
           </Typography>
           
 
-      <Grid container justifyContent="center" alignItems="center">
-        <Grid item xs={12} sm={4} md={3} >
-          <Button
-              sx={{ height: "40px", ml: '40px' }}
-              variant="contained"
-              color="primary"
-              href="mailto:alex-m-howard@pm.me"
-              target="_blank"
-              rel="noopener noreferrer">
-              
-              Email
-          </Button>
-        </Grid>
+        <Grid container item direction="row" justifyContent="space-evenly" alignItems="center">
 
-        <Grid item xs={12} sm={4} md={3} >
-          <Button
-          sx={{ height: "40px", ml: '40px' }}
-          variant="contained"
-          color="primary"
-          href="https://www.linkedin.com/in/alex-m-howard/"
-          target="_blank"
-          rel="noopener noreferrer">
-          LinkedIn
-          </Button>
-        </Grid>
-          
-        <Grid item xs={12} sm={4} md={3}>
-          <Button
-          sx={{ height: "40px", ml: '40px' }}
-          variant="contained"
-          color="primary"
-          href="https://docs.google.com/uc?id=1ah7S6GIEzPNSML_u068FdVLhaJZaFSmZ&export=download"
-          target="_blank"
-          rel="noopener noreferrer">
-          Resume
-          </Button>
-        </Grid>
-      </Grid>
+          <Grid 
+            item
+            xs={12} sm={4} md={3} 
+            >
+            <Button
+                sx={{ height: "40px", mb: '20px' }}
+                variant="contained"
+                color="primary"
+                fullWidth
+                href="mailto:alex-m-howard@pm.me"
+                target="_blank"
+                rel="noopener noreferrer">
+                
+                Email
+            </Button>
+            </Grid>
 
+            <Grid 
+            item
+            xs={12} sm={4} md={3} 
+            >
+            <Button
+            sx={{ height: "40px", mb: '20px' }}
+            variant="contained"
+            fullWidth
+            color="primary"
+            href="https://www.linkedin.com/in/alex-m-howard/"
+            target="_blank"
+            rel="noopener noreferrer">
+            LinkedIn
+            </Button>
+            </Grid>
+
+            <Grid 
+            item
+            xs={12} sm={4} md={3} 
+            >
+            <Button
+            sx={{ height: "40px", mb: '20px' }}
+            variant="contained"
+            fullWidth
+            color="primary"
+            href="https://docs.google.com/uc?id=1ah7S6GIEzPNSML_u068FdVLhaJZaFSmZ&export=download"
+            target="_blank"
+            rel="noopener noreferrer">
+            Resume
+            </Button>
+          </Grid>
+        </Grid>
 
           <br />
           <br />
 
-          {/* <div className="calendly-inline-widget"
+          <div className="calendly-inline-widget"
             data-url="https://calendly.com/alex-m-howard/30min?hide_gdpr_banner=1"
             style={{ minWidth: '320px', minHeight: '1000px', width: '100%' }}
           />
@@ -76,9 +87,8 @@ const Contact = () => {
               <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             </Helmet>
             <br />
-            <br /> */}
+            <br />
           
-        </div>
       </Grid>
     </Grid>
   );
