@@ -17,8 +17,7 @@ const Contact = () => {
   };
 
   return (
-    <Grid container justifyContent="center" alignItems="center">
-      <Grid container item direction="column" justifyContent="center" alignItems="center">
+    <Grid container justifyContent="center" alignItems="center" >
           <Typography variant="h2" style={{margin: '5px auto'}}>
             Contact
           </Typography>
@@ -81,7 +80,7 @@ const Contact = () => {
 
           <div className="calendly-inline-widget"
             data-url="https://calendly.com/alex-m-howard/30min?hide_gdpr_banner=1"
-            style={{ minWidth: '320px', minHeight: '1000px', width: '100%' }}
+            style={{ minWidth: '320px',height: '900px', width: '100%'}}
           />
             <Helmet>
               <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
@@ -89,7 +88,6 @@ const Contact = () => {
             <br />
             <br />
           
-      </Grid>
     </Grid>
   );
 };
