@@ -55,37 +55,37 @@ const habitual = {
   linkUrl: "https://habitual-ten.vercel.app/",
 };
 
-// const productionHub = {
-//   imageUrl: "/productionhub.png",
-//   altText: "Production Hub",
-//   title: "Production Hub",
-//   avatars: [
-//     { alt: "HTML", url: "/1.png" },
-//     { alt: "CSS", url: "/2.png" },
-//     { alt: "JavaScript", url: "/3.png" },
-//     { alt: "Python", url: "/4.png" },
-//     { alt: "Flask", url: "/5.svg" },
-//     { alt: "PostgreSQL", url: "/6.png" },
-//   ],
-//   shortDescription:"An app that allows users to track various components of a production environment.",
-//   longDescription: "This is the project that I've worked the most on. It started because we needed something better at work to track some of our completed CNC programs. It grew from there to now include: part requests, error logs, prototype project management, nesting calculator, standard operating procedures, and more. I have been fortunate enough to experiement thoroughly with the technologies used and have used: Python, Flask, PostgreSQL, JavaScript, Bootstrap, jQuery, AWS S3 buckets, FontAwesome, and more. This sample doesn't include everything the current version does, and also includes dummy data to try out.",
-//   sourceUrl: "https://github.com/Alex-M-Howard/Production-Hub",
-//   linkUrl: "https://production-hub-production.up.railway.app",
-// };
-
-const javaTicTacToe = {
-  imageUrl: "/tictactoe.png",
-  altText: "Tic Tac Toe",
-  title: "Java Tic-Tac-Toe",
+const productionHub = {
+  imageUrl: "/productionhub.png",
+  altText: "Production Hub",
+  title: "Production Hub",
   avatars: [
-    { alt: "Java", url: "/java.png" },
-    { alt: "Maven", url: "/maven.png" }, 
+    { alt: "HTML", url: "/1.png" },
+    { alt: "CSS", url: "/2.png" },
+    { alt: "JavaScript", url: "/3.png" },
+    { alt: "Python", url: "/4.png" },
+    { alt: "Flask", url: "/5.svg" },
+    { alt: "PostgreSQL", url: "/6.png" },
   ],
-  shortDescription:"A simple tic-tac-toe game made in Java.",
-  longDescription: "After seeing so many job postings for Java developers, I was interested in learning more. I decided to make a simple tic-tac-toe game to get a feel for the language. I also wanted to try out Maven and see how it worked. I was able to get a working game, but I still have a lot to learn about Java.",
-  sourceUrl: "https://github.com/Alex-M-Howard/Tic-Tac-Toe-Java",
-  linkUrl: ""
-}
+  shortDescription:"An app that allows users to track various components of a production environment.",
+  longDescription: "This is the project that I've worked the most on. It started because we needed something better at work to track some of our completed CNC programs. It grew from there to now include: part requests, error logs, prototype project management, nesting calculator, standard operating procedures, and more. I have been fortunate enough to experiement thoroughly with the technologies used and have used: Python, Flask, PostgreSQL, JavaScript, Bootstrap, jQuery, AWS S3 buckets, FontAwesome, and more. This sample doesn't include everything the current version does, and also includes dummy data to try out.",
+  sourceUrl: "https://github.com/Alex-M-Howard/Production-Hub",
+  linkUrl: "",
+};
+
+// const javaTicTacToe = {
+//   imageUrl: "/tictactoe.png",
+//   altText: "Tic Tac Toe",
+//   title: "Java Tic-Tac-Toe",
+//   avatars: [
+//     { alt: "Java", url: "/java.png" },
+//     { alt: "Maven", url: "/maven.png" }, 
+//   ],
+//   shortDescription:"A simple tic-tac-toe game made in Java.",
+//   longDescription: "After seeing so many job postings for Java developers, I was interested in learning more. I decided to make a simple tic-tac-toe game to get a feel for the language. I also wanted to try out Maven and see how it worked. I was able to get a working game, but I still have a lot to learn about Java.",
+//   sourceUrl: "https://github.com/Alex-M-Howard/Tic-Tac-Toe-Java",
+//   linkUrl: ""
+// }
 
 const frasier = {
   imageUrl: "/frasier.png",
@@ -98,7 +98,7 @@ const frasier = {
     { alt: "OpenAI", url: "/openai.jpg" },
     { alt: "Twilio", url: "/twilio.png" },
   ],
-  shortDescription:"Sherry, Niles? A chatbot that lets you talk to Frasier Crane while you roleplay as Niles Crane. Try it out! Text: +1-844-981-3176",
+  shortDescription:"Sherry, Niles? A chatbot that lets you talk to Frasier Crane while you roleplay as Niles Crane.",
   longDescription: "This is everything I've ever wanted. To have a direct line to my favorite TV show psychiatrist. You don't have to look in the DSM-IV to see why I would make this. Continuing in Java, I wanted to make an API that would connect to Twilio that allows you to text a question that is then answered by OpenAI's ChatGPT. This was a fun project that I would love to build on in the future.",
   sourceUrl: "https://github.com/Alex-M-Howard/imlistening",
   linkUrl: ""
@@ -134,13 +134,13 @@ const Projects = () => {
           <ProjectCard {...habitual} />
         </Grid>
         
-        {/* <Grid item xs={12} sm={6} md={4} lg={3}>
-          <ProjectCard {...productionHub} />
-        </Grid> */}
-        
         <Grid item xs={12} sm={6} md={4} lg={3}>
-          <ProjectCard {...javaTicTacToe} />
+          <ProjectCard {...productionHub} />
         </Grid>
+        
+        {/* <Grid item xs={12} sm={6} md={4} lg={3}>
+          <ProjectCard {...javaTicTacToe} />
+        </Grid> */}
 
         <Grid item xs={12} sm={6} md={4} lg={3}>
           <ProjectCard {...frasier} />
